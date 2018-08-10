@@ -56,7 +56,7 @@ public class Log {
     /**
      * Clears the inner ArrayList containing all of the alterations using java.util.ArrayList.clear() method
      */
-    public void clearAlterationList() {
+    public void clear() {
         this.alterationArrayList.clear();
     }
 
@@ -64,7 +64,7 @@ public class Log {
      * Returns an iterator for the inner alterationArrayList
      * @return an iterator for the inner alterationArrayList
      */
-    public Iterator<Alteration> getAlterationArrayListIterator() {
+    public Iterator<Alteration> alterationIterator() {
         return this.alterationArrayList.iterator();
     }
 
