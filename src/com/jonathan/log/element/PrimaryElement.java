@@ -4,10 +4,10 @@ import java.util.ArrayList;
 
 public abstract class PrimaryElement extends Element {
 
-    private ArrayList<Element> elementArrayList;
+    protected ArrayList<Element> elementArrayList;
 
-    public PrimaryElement(String tagString) {
-        super(tagString);
+    public PrimaryElement() {
+        this.elementArrayList = new ArrayList<>();
     }
 
 }

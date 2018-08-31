@@ -1,5 +1,6 @@
 package com.jonathan.log;
 
+import com.jonathan.log.element.Element;
 import com.jonathan.log.element.PrimaryElement;
 
 public class Log extends PrimaryElement {
@@ -10,8 +11,9 @@ public class Log extends PrimaryElement {
         tagString = "log";
     }
 
-    public Log() {
-        super(Log.tagString);
+    // INSERTED AS A TESTER
+    public boolean addElement(Element element) {
+        return this.elementArrayList.add(element);
     }
 
     @Override
