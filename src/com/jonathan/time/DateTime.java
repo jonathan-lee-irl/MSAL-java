@@ -1,7 +1,5 @@
 package com.jonathan.time;
 
-import org.jetbrains.annotations.NotNull;
-
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
 
@@ -58,7 +56,6 @@ public class DateTime {
      * @param localDateTime the LocalDateTime for which a formatted String representation will be returned
      * @return the formatted String representation of the passed LocalDateTime
      */
-    @NotNull
     public static String getFormattedLocalDateTime(LocalDateTime localDateTime) {
         return DateTime.getDateTimeFormatter().format(localDateTime);
     }
