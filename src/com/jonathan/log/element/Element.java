@@ -13,6 +13,11 @@ public abstract class Element {
     // TODO Implement protected member or class which allows for storage of metadata e.g. category="networking"
 
     /**
+     * Represents the name of the tag in resulting XML file
+     */
+    protected String tagString;
+
+    /**
      * All of the attributes for the Element, empty list implies none
      */
     protected ArrayList<Attribute> attributeArrayList;
